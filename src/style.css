@@ -1,0 +1,74 @@
+h1 {
+
+font-size: 36px;
+text-align: center;
+}
+
+.container {
+    border-radius: 10px;
+    border: 2px dotted;
+
+    max-width: 650px;
+    padding:  0 10px 10px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top:250px;
+    margin-left: 150px;
+
+        }
+
+.recipe
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.submit-button {
+    margin-left: 10px;
+    background:black;
+    color: white;
+    width: 150px;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px;
+    
+    }
+
+
+.ingredients {
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    text-align: left;
+    }
+
+body   {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0; 
+    background-size: cover;
+    background-image: url("pie.jpg");
+    background-position: cover;
+}
+
+
+footer {
+    text-align: left;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

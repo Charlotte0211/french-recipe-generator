@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
-    <title>AI French recipe generator</title>
+    <title>Cake recipe generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
-    <h1> AI french recipes generator</h1>
+    <h1> Cake Recipes generator</h1>
     </header>
 
     <main>
@@ -16,25 +17,23 @@
         <form>
             <input type="text" 
             id="ingredients" 
+            class ="ingredients"
             placeholder="Enter your ingredients"
             autofocus
             required
             autocomplete="off"
             />
-            <input type="submit">Generate recipe/>      
+            <button type="submit" class="submit-button">Generate recipe</button>
         </form>
-        <div id="recipe">
+        <div id="recipe" class="recipe">
             Recipe will be displayed here
         </div>
-
-
     </main>
-
-
 
     <footer>This AI project was coded by Charlotte Rivière and is <a href="https://github.com/Charlotte0211/french-recipe-generator" target="_blank"> opened-source on GitHub.</a>
     and is hosted on <a href="https://frenchrecipesgenerator.netlify.app/" target="_blank">Netlify</a>.
     </footer>
+    </div>
 <script src="src/index.js"></script>
 </body>
 </html>

@@ -20,9 +20,9 @@ text-align: center;
 .recipe
 {
     margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: bold;
+    margin-bottom: 70px;
+    font-size: 16px;
+    margin-left: 35px;
 }
 
 .submit-button {
@@ -48,6 +48,7 @@ text-align: center;
     padding: 10px;
     text-align: left;
     }
+    
 
 body   {
     font-family: 'Open Sans', sans-serif;
@@ -62,7 +63,7 @@ body   {
 
 
 footer {
-    text-align: left;
+    margin-left: 190px;
     font-size: 12px;
     padding-top: 10px;
 }

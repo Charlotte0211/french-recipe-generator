@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <link rel="stylesheet" href="src/style.css">
     <title>Cake recipe generator</title>
 </head>
 <body>
     <div class="container">
     <header>
-    <h1> Cake Recipes generator</h1>
+    <h1> Cake Recipes Generator</h1>
     </header>
 
     <main>
 
-        <form>
+        <form id="recipe-generator-form">
             <input type="text" 
             id="ingredients" 
             class ="ingredients"
@@ -25,15 +27,13 @@
             />
             <button type="submit" class="submit-button">Generate recipe</button>
         </form>
-        <div id="recipe" class="recipe">
-            Recipe will be displayed here
-        </div>
+        <div id="recipe" class="recipe"></div>
     </main>
-
+</div>
     <footer>This AI project was coded by Charlotte Rivière and is <a href="https://github.com/Charlotte0211/french-recipe-generator" target="_blank"> opened-source on GitHub.</a>
     and is hosted on <a href="https://frenchrecipesgenerator.netlify.app/" target="_blank">Netlify</a>.
     </footer>
-    </div>
+    
 <script src="src/index.js"></script>
 </body>
 </html>
